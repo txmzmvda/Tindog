@@ -1,0 +1,200 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/* Headings  */
+
+.big-heading {
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+/* containers  */
+
+.container-fluid {
+    padding: 7% 15%
+}
+
+/* sections */
+
+.color-background {
+    background-color: #ff4c68;
+    color: white;
+}
+
+.white-background {
+    background-color: #fff;
+}
+
+/* navigation bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-family: "Montserrat-Light", sans-serif;
+    font-size: 1.2rem;
+}
+
+/* title section  */
+
+#title {
+    text-align: left;
+}
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+}
+
+/* Download Buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0%;
+}
+
+/* title image  */
+
+.title-image {
+    width: 60%;
+    rotate: 25deg;
+    position: absolute;
+    right: 30%;
+}
+
+.rozmiar {
+    position: relative;
+}
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(-25deg);
+    }
+    .rozmiar {
+        width: 100%;
+        position: static;
+    }
+
+}
+
+/* features */
+
+#features {
+    position: relative;
+    z-index: 1;
+}
+
+.feat-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.features-center {
+    text-align: center;
+    padding: 5%;
+}
+
+.features-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    width: 45%;
+    margin: auto;
+}
+
+.color-feature {
+    color: #ef8172;
+    width: 100%;
+    margin: 16px 0 32px 0;
+    
+}
+
+.color-feature:hover {
+    color: red;
+}
+
+/* Testimonial  */
+
+
+.testimonials-txt {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    padding-bottom: 3%;
+}
+
+.press-image {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* pricing */
+
+#pricing {
+    padding: 100px;
+}
+
+.pricing-column {
+    padding: 3% 2%;   
+}
+
+.pirce-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* action */
+
+.h3-cta {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.cta-button {
+    margin: 20px 10px;
+}
+
+.cta-button:hover {
+    color: red;
+}
