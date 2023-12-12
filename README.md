@@ -8,3 +8,5 @@ None of those were created by myself - it was just following the lesson's script
 ## Contains
 
 HTML5, CSS, BOOTSTRAP 5
+
+I have no copyrights for this one - it was done only for educational purpouse. 
